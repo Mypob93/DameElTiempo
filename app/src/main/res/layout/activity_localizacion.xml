@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/cielofondo"
+    tools:context="com.app.mauro.dameeltiempo.Pronostico">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarLocacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"></android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/imagenLocacion"
+        android:layout_marginTop="15dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Temperatura: "
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/temperaturaLocacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textSize="15dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Humedad: "
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/humedadLocacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Fecha: "
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/fechaLocacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textSize="15dp"
+        />
+
+
+   <TextView
+       android:id="@+id/CiudadLocacion"
+       android:layout_marginTop="10dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textAlignment="center"
+       android:text=""
+       android:textSize="15dp"/>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/obtenerLocalizacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OBTENER LOCALIZACION"
+        />
+
+    <Button
+        android:id="@+id/pronosticoLocacion"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Pronostico"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:background="@android:drawable/editbox_background_normal"/>
+
+
+
+
+
+
+
+</LinearLayout>

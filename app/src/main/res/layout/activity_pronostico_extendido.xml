@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cielofondo"
+    tools:context="com.app.mauro.dameeltiempo.PronosticoExtendido">
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:paddingBottom="48dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:paddingTop="-48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/CiudadPronosExt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su ciudad"/>
+
+        <Spinner
+            android:id="@+id/SpinnerPronosExt"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"></Spinner>
+
+        <Button
+            android:id="@+id/BotonPronosticoExt"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRONOSTICO"
+            />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
