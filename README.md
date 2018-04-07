@@ -2,7 +2,7 @@
 
 Simple aplicación que te otorga los datos del tiempo con 3 opciones:
 <p>1- Tiempo en el momento en la ciudad indicada</p>
-<p?2- Tiempo en los días siguientes (hasta 5) en la ciudad indicada.</p>
+<p>2- Tiempo en los días siguientes (hasta 5) en la ciudad indicada.</p>
 <p>3- Tiempo en la ubicación actual del usuario.</p>
 
 Tecnologías utilizadas: RecyclerView, CardView, Picasso, Retrofit (para conexión con la API), GSON, etc.
