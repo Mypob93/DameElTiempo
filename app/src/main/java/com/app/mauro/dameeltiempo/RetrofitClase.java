@@ -8,6 +8,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by Mauro on 9/3/2018.
  */
 
+// Modified by Mauro on 01/03/2019
+
 public class RetrofitClase {
 
     private static RetrofitInterface MY_APY_SERVICE;
